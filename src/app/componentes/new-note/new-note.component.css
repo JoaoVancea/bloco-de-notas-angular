@@ -1,0 +1,16 @@
+.newNote-square{
+    background-color: #CEC8C8;
+    width: 454px;
+    height: 240px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newNote{
+height: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}

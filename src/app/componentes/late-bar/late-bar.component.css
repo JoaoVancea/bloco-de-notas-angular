@@ -1,0 +1,48 @@
+.late_bar {
+    display: flex;
+    height: 442px;
+    width: 339px;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10;
+    background-color: var(--cor-padrao-beje);
+    box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.5);
+}
+
+
+.late_bar_div{
+    width: 285px;
+    height: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #676a6e;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+}
+.late_bar_div img {
+    width: 28px;
+    height: 28px;
+}
+.late_bar_div p {
+    font-family: var(--fonte-texto2);
+    font-size: 16px;
+}
+.ativo {
+    color: #ffffff;
+    background-color: #1B2B42;
+
+}
+.desativado {
+    color: #000000;
+    background-color: #ffffff;
+}
+.criarNota {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #1B2B42;
+}

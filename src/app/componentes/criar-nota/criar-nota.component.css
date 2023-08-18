@@ -1,0 +1,10 @@
+.botao-criar-nota {
+    width: 100px;
+    height: 100px;
+    background-color: #1B2B42;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

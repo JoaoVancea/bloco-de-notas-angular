@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Monda&display=swap');
+
+
+
+:root{
+    --font-texto: 'Inter', sans-serif;
+    --fonte-texto2: 'Monda', sans-serif;
+    --cor-padrao-beje: #CEC8C8;
+}

@@ -17,3 +17,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.tipo1{
+  background-color: aqua;
+}
+:root{
+  --tipo1: white;
+}
+
+.murillo{
+  color: var(--tipo1);
+}

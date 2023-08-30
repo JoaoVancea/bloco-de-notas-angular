@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  listaNotas = [
+    {
+      titulo: "DFAMLKDFLAKDNFLKA",
+      conteudo: "DEU CERTO",
+      tipo: "tipo2"
+    }
+  ]
 }

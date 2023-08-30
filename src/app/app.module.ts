@@ -9,6 +9,7 @@ import { NewNoteComponent } from './componentes/new-note/new-note.component';
 import { MainComponent } from './componentes/main/main.component';
 import { CriarNotaComponent } from './componentes/criar-nota/criar-nota.component';
 import { BackgroundComponent } from './componentes/background/background.component';
+import { CoresSquareComponent } from './cores-square/cores-square.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BackgroundComponent } from './componentes/background/background.compone
     MainComponent,
     CriarNotaComponent,
     BackgroundComponent,
+    CoresSquareComponent,
   ],
   imports: [
     BrowserModule,

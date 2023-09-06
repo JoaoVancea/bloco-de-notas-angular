@@ -1,10 +1,11 @@
-    <div class="newNote-square {{nota.tipo}}" >
+    <div class="newNote-square {{nota.tipo}}[ngClass]= 'tamanhoNota()" >
+      <p>{{nota.conteudo}}</p>
 <form action="">
   <input type="text" placeholder="Digite o título da sua nota">
   <input type="text" placeholder="Digite sua nota">
 </form>
 
-<button routerLink="/home">Salvar</button>
+<button routerLink="/nota-pronta">Salvar</button>
 <button> <img src="../../../assets/imagens/lembreteIcon.svg" alt=""></button>
 <button routerLink="/colorir"> <img src="../../../assets/imagens/colorir icon.svg" alt=""></button>
 <button> <img src="../../../assets/imagens/fotoIcon.svg" alt=""></button>

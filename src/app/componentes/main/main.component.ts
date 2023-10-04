@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Nota } from 'src/app/nota';
+import { NotaService } from '../service/nota.service';
 
 @Component({
   selector: 'app-main',
@@ -6,12 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
+  constructor(private service: NotaService) { };
 
-  listaNotas = [
-    {
-      titulo: "DFAMLKDFLAKDNFLKA",
-      conteudo: "DEU CERTO",
-      tipo: "tipo2"
-    }
-  ]
+  ngOnInit(): void {
+    this.service.listar().subscribe((listaNotas) => {
+
+      this.listaNotas = listaNotas
+    })
+  }
+
+  listaNotas: Nota[] = [];
 }
+

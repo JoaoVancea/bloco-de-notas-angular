@@ -1,12 +1,13 @@
-
-<p>SEM NOTAS AINDA</p>
-<div *ngIf="listaNotas.length > 0, else semNotas">
-  <div *ngFor="let nota of listaNotas">
-
+<button routerLink="/criar-nota"></button>
+<div class="main-meio">
+  <div *ngIf="listaNotas.length > 0, else semNotas">
+    <div *ngFor="let nota of listaNotas">
+      <app-nota-pronta [nota]="nota"></app-nota-pronta>
+    </div>
   </div>
 </div>
 <ng-template #semNotas>
   <div>
-    <p>Não há notas</p>
+    <p >SEM NOTAS AINDA</p>
   </div>
 </ng-template>
